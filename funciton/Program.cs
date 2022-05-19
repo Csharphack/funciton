@@ -14,7 +14,17 @@ namespace funciton
             Console.WriteLine("Enter the value of second object");
             r2.display();
 
-            Console.WriteLine();
+            triangle t1 = new triangle(10, 12, 20);
+            Console.WriteLine("Value of first triangle");
+            t1.display();
+
+            triangle t2 = new triangle(24, 18, 20);
+            Console.WriteLine("Enter value of second triangle");
+            t2.display();
+
+            circle C = new circle(10, 12, 3);
+            Console.WriteLine("Value of circle");
+            C.display();
         }
     }
 }
